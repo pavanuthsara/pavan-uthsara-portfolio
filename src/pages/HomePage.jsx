@@ -1,13 +1,17 @@
-import React from 'react'
+import React from "react";
 
-import NavBar from '../components/NavBar'
+import NavBar from "../components/NavBar";
+import Hero from "../components/Hero";
 
 const HomePage = () => {
   return (
-    <div>
+    <>
+      <div className="container mx-auto px-4 font-ubuntu">
         <NavBar />
-    </div>
-  )
-}
+        <Hero />
+      </div>
+    </>
+  );
+};
 
-export default HomePage
+export default HomePage;
