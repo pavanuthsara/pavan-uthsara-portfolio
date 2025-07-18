@@ -7,7 +7,7 @@ const Projects = () => {
       <div className="text-center my-3">
         <p className="text-2xl font-medium ">The most recent projects</p>
       </div>
-      <div className="flex flex-row justify-center items-center gap-5 py-4 ">
+      <div className="flex flex-row justify-center items-center gap-5 py-4">
         <div className=" w-1/2 place-items-end">
           <ProjectCard
             title={"Freshly LK - Farming site"}
@@ -28,7 +28,7 @@ const Projects = () => {
             source={"https://github.com/pavanuthsara/SparePartsSellingApp"}
           />
         </div>
-        <div className="w-1/2 pr-8">
+        <div className="w-1/2 ">
           <ProjectCard
             title={"Pavan Uthsara - Youtube channel"}
             image={"/img/youtube_logo_v2.svg"}

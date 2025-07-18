@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <div className="flex center justify-center items-center gap-5">
       <div className="w-1/2 place-items-end">
-        <img src="/img/pavan_picture.svg" alt="Picute of pavan" />
+        <img src="/img/pavan_picture.webp" alt="Picute of pavan" className="w-3/4" />
       </div>
       <div className="w-1/2 pr-8 ">
         <p className="text-4xl my-4 font-bold">Let's Build & Solve</p>
