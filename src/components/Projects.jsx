@@ -5,7 +5,7 @@ const Projects = () => {
   return (
     <div className="mt-4 pt-16">
       <div className="text-center my-3">
-        <p className="pl-12 text-2xl font-medium ">The most recent projects</p>
+        <p className="text-2xl font-medium ">The most recent projects</p>
       </div>
       <div className="flex flex-row justify-center items-center gap-5 py-4 ">
         <div className=" w-1/2 place-items-end">
@@ -16,7 +16,7 @@ const Projects = () => {
               "A webapp for new farmers who entered into the market, this system bypasses the middlemen."
             }
             techstack={"MERN stack | JWT authentication"}
-            source={"https://github.com/pavanuthsara/freshly-project2"} 
+            source={"https://github.com/pavanuthsara/freshly-project2"}
           />
           <ProjectCard
             title={"Spare parts selling web"}
@@ -46,7 +46,9 @@ const Projects = () => {
               "An android app for manage daily expenses and income. Have backup option for user data."
             }
             techstack={"Kotlin | XML | Android Studio | Shared Preferences"}
-            source={"https://github.com/pavanuthsara/Personal_Finance_Tracker_v3"}
+            source={
+              "https://github.com/pavanuthsara/Personal_Finance_Tracker_v3"
+            }
           />
         </div>
       </div>
