@@ -13,10 +13,10 @@ const Projects = () => {
             title={"Freshly LK - Farming site"}
             image={"/img/freshly.svg"}
             description={
-              "A webapp for new entered farmers into the market, this system bypasses the middlemen."
+              "A webapp for new farmers who entered into the market, this system bypasses the middlemen."
             }
             techstack={"MERN stack | JWT authentication"}
-            source={"google.com"}
+            source={"https://github.com/pavanuthsara/freshly-project2"} 
           />
           <ProjectCard
             title={"Spare parts selling web"}
@@ -25,7 +25,7 @@ const Projects = () => {
               "A sparepart selling system, sellers can list their products and buyers can buy them."
             }
             techstack={"Java | JSP | MySQL | Tailwind CSS"}
-            source={"google.com"}
+            source={"https://github.com/pavanuthsara/SparePartsSellingApp"}
           />
         </div>
         <div className="w-1/2 pr-8">
@@ -33,10 +33,11 @@ const Projects = () => {
             title={"Pavan Uthsara - Youtube channel"}
             image={"/img/youtube_logo_v2.svg"}
             description={
-              "I support my colleuges by creating helpful videos. Most of them are related to DSA, Java, Sql. [5000+ subscribers]"
+              "I support my colleuges by creating helpful videos. Most of them are related to DSA, Java, Sql. [5900+ subscribers]"
             }
             techstack={"Tech | Programming | Content Creation"}
-            source={"google.com"}
+            source={"https://www.youtube.com/pavanuthsara"}
+            source_name="View Channel"
           />
           <ProjectCard
             title={"Sepend Wise - Android App"}
@@ -44,8 +45,8 @@ const Projects = () => {
             description={
               "An android app for manage daily expenses and income. Have backup option for user data."
             }
-            techstack={"Kotlin | xml | Android Studio | Shared Preferences"}
-            source={"google.com"}
+            techstack={"Kotlin | XML | Android Studio | Shared Preferences"}
+            source={"https://github.com/pavanuthsara/Personal_Finance_Tracker_v3"}
           />
         </div>
       </div>
