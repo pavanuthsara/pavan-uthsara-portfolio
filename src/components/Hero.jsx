@@ -23,7 +23,7 @@ const Hero = () => {
           relentless curiosity for emerging technologies and a commitment to
           building meaningful digital experiences.
         </p>
-        <a className="btn btn-ghost mt-4 bg-base-100 shadow-sm">LinkedIn</a>
+        <a className="btn btn-ghost mt-4 bg-base-200 shadow-sm">LinkedIn</a>
       </div>
     </div>
   );
