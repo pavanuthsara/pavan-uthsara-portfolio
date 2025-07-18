@@ -4,12 +4,12 @@ import { Youtube, Github } from "lucide-react";
 const ProjectCard = ({ title, description, image, techstack, source }) => {
   return (
     <div className="flex w-2/3 h-auto justify-start mb-4 bg-slate-50 p-4 rounded-2xl">
-      <div className="mr-4">
+      <div className="mr-4 ">
         <img
           src={image}
           href={source}
           alt={title}
-          className="w-16 h-auto"
+          className="w-16 h-auto rounded-full"
         ></img>
       </div>
       <div>

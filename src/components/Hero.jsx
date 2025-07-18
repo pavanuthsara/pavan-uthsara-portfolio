@@ -19,7 +19,7 @@ const Hero = () => {
         <p className="pr-44 mt-2 text-sm text-slate-600">
           Transforming complex challenges into elegant software solutions while
           empowering the next generation of developers through engaging YouTube
-          content. Currently pursuing my Software Engineering degree with a
+          content. Currently pursuing Software Engineering degree at SLIIT with a
           relentless curiosity for emerging technologies and a commitment to
           building meaningful digital experiences.
         </p>

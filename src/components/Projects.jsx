@@ -11,7 +11,7 @@ const Projects = () => {
         <div className=" w-1/2 place-items-end">
           <ProjectCard
             title={"Freshly LK - Farming site"}
-            image={"/img/github-logo.svg"}
+            image={"/img/freshly.svg"}
             description={
               "A webapp for new entered farmers into the market, this system bypasses the middlemen."
             }
@@ -20,7 +20,7 @@ const Projects = () => {
           />
           <ProjectCard
             title={"Spare parts selling web"}
-            image={"/img/github-logo.svg"}
+            image={"/img/github_logo.svg"}
             description={
               "A sparepart selling system, sellers can list their products and buyers can buy them."
             }
@@ -31,7 +31,7 @@ const Projects = () => {
         <div className="w-1/2 pr-8">
           <ProjectCard
             title={"Pavan Uthsara - Youtube channel"}
-            image={"/img/youtube-logo.svg"}
+            image={"/img/youtube_logo_v2.svg"}
             description={
               "I support my colleuges by creating helpful videos. Most of them are related to DSA, Java, Sql. [5000+ subscribers]"
             }
@@ -39,8 +39,8 @@ const Projects = () => {
             source={"google.com"}
           />
           <ProjectCard
-            title={"Expenses tracker - Android app"}
-            image={"/img/github-logo.svg"}
+            title={"Sepend Wise - Android App"}
+            image={"/img/spend_wise.svg"}
             description={
               "An android app for manage daily expenses and income. Have backup option for user data."
             }
