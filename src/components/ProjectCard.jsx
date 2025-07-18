@@ -1,9 +1,10 @@
 import React from "react";
+import { Youtube, Github } from "lucide-react";
 
 const ProjectCard = ({ title, description, image, techstack, source }) => {
   return (
-    <div className="flex w-80 h-auto justify-start bg-zinc-100 ">
-      <div>
+    <div className="flex w-80 h-auto justify-start mb-4">
+      <div className="mr-4">
         <img
           src={image}
           href={source}
