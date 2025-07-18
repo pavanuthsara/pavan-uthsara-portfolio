@@ -1,5 +1,4 @@
 import React from "react";
-import { Youtube, Github } from "lucide-react";
 
 const ProjectCard = ({ title, description, image, techstack, source, source_name="Source Code" }) => {
   return (
