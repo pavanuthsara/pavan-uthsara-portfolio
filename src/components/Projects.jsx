@@ -5,12 +5,12 @@ const Projects = () => {
   return (
     <div className="mt-4 pt-16">
       <div className="text-center my-3">
-        <p className="text-2xl font-medium ">The most recent projects</p>
+        <p className="text-2xl font-medium">The most recent projects</p>
       </div>
       <div className="flex flex-row justify-center items-center gap-5 py-4">
         <div className=" w-1/2 place-items-end">
           <ProjectCard
-            title={"Freshly LK - Farming site"}
+            title={"Freshly LK - Web for farmers"}
             image={"/img/freshly.svg"}
             description={
               "A webapp for new farmers who entered into the market, this system bypasses the middlemen."
