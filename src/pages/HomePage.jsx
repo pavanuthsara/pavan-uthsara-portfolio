@@ -1,4 +1,5 @@
 import React from "react";
+import { BrowserRouter } from "react-router-dom";
 
 import NavBar from "../components/NavBar";
 import Hero from "../components/Hero";
@@ -8,7 +9,7 @@ import Footer from "../components/Footer";
 
 const HomePage = () => {
   return (
-    <>
+    <BrowserRouter>
       <div className="container mx-auto px-4 font-ubuntu">
         <NavBar />
         <Hero />
@@ -16,7 +17,7 @@ const HomePage = () => {
         <ContactMe />
         <Footer />
       </div>
-    </>
+    </ BrowserRouter>
   );
 };
 
