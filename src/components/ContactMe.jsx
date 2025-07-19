@@ -63,7 +63,7 @@ const ContactMe = () => {
               <p className="font-medium text-lg">Send an Email</p>
               <p className="text-sm text-slate-600 py-2">
                 For more detailed inquiries, collaboration proposals, or
-                professional discussions, please use the contact form below.
+                professional discussions, please use the email below.
                 I'll get back to you as soon as possible.
               </p>
               <div className="flex flex-row justify-center align-middle gap-2 mt-2">

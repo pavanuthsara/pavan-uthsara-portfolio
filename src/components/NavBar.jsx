@@ -1,4 +1,7 @@
+import { Hash } from "lucide-react";
 import React from "react";
+
+import { HashLink } from "react-router-hash-link";
 
 const NavBar = () => {
     
@@ -10,6 +13,12 @@ const NavBar = () => {
     link.click();
     document.body.removeChild(link);
   };
+
+  const scrollToSection = (sectionId) => {
+    console.log("this is section handler");
+    
+  }
+
 
   return (
     <div className="navbar bg-base-100 shadow-sm">
@@ -40,7 +49,7 @@ const NavBar = () => {
               <a>Home</a>
             </li>
             <li>
-              <a>Projects</a>
+              <a><HashLink to='#projects'>Projects</HashLink></a>
             </li>
             <li>
               <a>Contact Me</a>
@@ -56,7 +65,7 @@ const NavBar = () => {
             <a>Home</a>
           </li>
           <li>
-            <summary>Projects</summary>
+            <summary><HashLink to='#projects'>Projects</HashLink></summary>
           </li>
           <li>
             <a>Contact Me</a>
