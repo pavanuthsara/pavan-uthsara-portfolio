@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import toast  from "react-hot-toast";
+import toast from "react-hot-toast";
 
 import { Clipboard } from "lucide-react";
 
@@ -13,13 +13,26 @@ const ContactMe = () => {
   const handleClipboardEmail = async () => {
     try {
       await navigator.clipboard.writeText(emailToCopy);
-      toast.success("Email copied to clipboard");
       setCopyEmailStatus(true);
-      console.log(copyEmailStatus);
+      toast.success("Email copied to clipboard", { position: "bottom-right" });
     } catch (error) {
       console.error("Failed to copy email:", error);
       setCopyEmailStatus(false);
       toast.error("Failed to copy email");
+    }
+  };
+
+  const handleClipboardMobile = async () => {
+    try {
+      await navigator.clipboard.writeText(mobileToCopy);
+      setCopyMobileStatus(true);
+      toast.success("Mobile number copied to clipboard", {
+        position: "bottom-left",
+      });
+    } catch (error) {
+      console.error("Failed to copy mobile number:", error);
+      setCopyMobileStatus(false);
+      toast.error("Failed to copy mobile number");
     }
   };
 
@@ -37,11 +50,11 @@ const ContactMe = () => {
                 Feel free to call or drop me a WhatsApp message. I'm usually
                 quick to respond!
               </p>
-              <div className="flex flex-row justify-center align-middle gap-2 mt-2">
+              <div className="flex flex-row justify-center align-middle gap-2 mt-2 ">
                 <p>Mobile / WhatsApp: +94 71 4169 537</p>
                 <Clipboard
-                  onClick={handleClipboardEmail}
-                  className="cursor-pointer w-6"
+                  onClick={handleClipboardMobile}
+                  className="cursor-pointer w-6 motion-safe:animate-bounce"
                 />
               </div>
             </div>
@@ -58,7 +71,7 @@ const ContactMe = () => {
                 <p>uthsarapavan@gmail.com</p>
                 <Clipboard
                   onClick={handleClipboardEmail}
-                  className="cursor-pointer w-6"
+                  className="cursor-pointer w-6 motion-safe:animate-bounce"
                 />
               </div>
             </div>
