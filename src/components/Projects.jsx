@@ -34,7 +34,7 @@ const Projects = () => {
               title={"Pavan Uthsara - Youtube channel"}
               image={"/img/youtube_logo_v2.svg"}
               description={
-                "I support my colleuges by creating helpful videos. Most of them are related to DSA, Java, Sql. [5900+ subscribers]"
+                "I support my colleuges by creating helpful videos. Most of them are related to DSA, Java, Sql. [6200+ subscribers]"
               }
               techstack={"Tech | Programming | Content Creation"}
               source={"https://www.youtube.com/pavanuthsara"}
