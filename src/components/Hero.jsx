@@ -13,8 +13,7 @@ const Hero = () => {
             Tech content creator at Youtube
         </p> */}
         <p className="pr-44">
-          Undergraduate Software Engineering Student | Problem-Solving
-          Enthusiast | Tech Content Creator
+          Undergraduate Software Engineering Student | Software Engineer Intern at <a href="https://www.verdentra.com/">@Verdentra</a> | Tech Content Creator
         </p>
         <p className="pr-44 mt-2 text-sm text-slate-600">
           Transforming complex challenges into elegant software solutions while
